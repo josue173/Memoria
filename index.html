@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/x-icon" href="assets/img/Hi-Computer.png">
+    <!-- ========== UNICONS ========== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- ========== SWIPER CSS ========== -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- ========== CSS ========== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- ========== JS ========== -->
+    <script defer src="/assets/js/main.js"></script>
+  
+    <!-- ========== SWIPER JS ========== -->
+    <!-- <script defer src="assets/js/swiper-bundle.min.js"></script> -->
+    <title>Antony</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <!-- NAV -->
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Antony</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Inicio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> Sobre mí
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-10-plus nav__icon"></i> Habilidades
+                <!-- <i class="uil uil-file-alt nav__icon"></i> Habilidades -->
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Servicios
+                <!-- <i class="uil uil-briefcase-alt nav__icon"></i>  -->
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Proyectos
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contáctame
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- CAMBIAR TEMA -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                class="home__social--icon"
+                href="https://www.linkedin.com/in/antony-toribio-691758223/"
+                target="_blank"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://github.com/josue173"
+                class="home__social--icon"
+                target="_blank"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <!-- <a
+                href="https://twitter.com/zamn___"
+                class="home__social--icon"
+                target="_blank"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a> -->
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob--img"
+                    href="assets/img/Hi-Suprise.png"
+                    x="12"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hola, soy Antony</h1>
+              <h3 class="home__subtitle">Desarrollador frontend</h3>
+              <p class="home__description">
+                Actualmente me encuentro aprendiendo sobre tecnologías Frontend
+              </p>
+              <br />
+              <a href="#contact" class="button button--flex">
+                Contáctame <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll--button button--flex">
+              <i class="uil uil-mouse-alt home__scroll--mouse"></i>
+              <span class="home__scroll--name">Bajar</span>
+              <i class="uil uil-arrow-down home__scroll--arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">Sobre mí</h2>
+        <span class="section__subtitle">My introduction</span>
+        <div class="about__container container grid">
+          <img class="about__img" src="assets/img/Hi.png" alt="" />
+          <div class="about__data">
+            <p class="about__description">
+              <!-- Estoy aprendiendo por mi cuenta -->
+              Estoy tratando de crecer y desarrollarme por mi cuenta siempre
+              estoy abierto a nuevas experiencias y oportunidades en el campo
+              laboral y profesional.
+            </p>
+            <div class="about__info">
+              <!-- <div>
+                <span class="about__info--title">08+</span>
+                <span class="about__info--name"
+                  >Years <br />
+                  experience</span
+                >
+              </div> -->
+              <!-- <div>
+                <span class="about__info--title">05+</span>
+                <span class="about__info--name"
+                  >Complete <br />
+                  project</span
+                >
+              </div> -->
+              <!-- <div>
+                <span class="about__info--title">05+</span>
+                <span class="about__info--name">Years <br /> experience</span>
+              </div> -->
+            </div>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="assets/files/CV Antony Toribio.pdf"
+                class="button button--flex"
+              >
+                Descargar CV <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Habilidades</h2>
+        <span class="section__subtitle"> Nivel de conocimientos </span>
+        <div class="skills__container container grid">
+          <div>
+            <!-- SKILLS FRONTEND-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Desarrollador frontend</h1>
+                  <span class="skills__subtitle">
+                    Frameworks y tecnología
+                  </span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <!-- HTML -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"> </span>
+                  </div>
+                </div>
+                <!-- CSS -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"> </span>
+                  </div>
+                </div>
+                <!-- JS -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"> </span>
+                  </div>
+                </div>
+                <!-- ANGULAR -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Angular</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__angular"> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SKILLS BAKCEND-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Desarrollador backend</h1>
+                  <span class="skills__subtitle">
+                    Bases de datos y frameworks
+                  </span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <!-- MySQL -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__mysql"> </span>
+                  </div>
+                </div>
+                <!-- NODE JS -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Node JS</h3>
+                    <span class="skills__number">40%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__nodejs"> </span>
+                  </div>
+                </div>
+                <!-- FIREBASE -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Firebase</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__firebase"> </span>
+                  </div>
+                </div>
+                <!-- MONGO DB -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Mongo DB</h3>
+                    <span class="skills__number">30%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__mongodb"> </span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Express</h3>
+                    <span class="skills__number">40%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__express"> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!-- SKILLS DISEÑO -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-swatchbook skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Diseño</h1>
+                  <span class="skills__subtitle">
+                    Herramientas y frameworks
+                  </span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <!-- FIGMA -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"> </span>
+                  </div>
+                </div>
+                <!-- BOOTSTRAP -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__bootstrap"> </span>
+                  </div>
+                </div>
+                <!-- FIGMA -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Angular Material</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__angularmaterial">
+                    </span>
+                  </div>
+                </div>
+                <!-- PRIME NG -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Prime NG</h3>
+                    <span class="skills__number">30%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__primeng"> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SKILLS HERRAMIENTAS -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-code-branch skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Herramientas</h1>
+                  <span class="skills__subtitle">
+                    Programas y tecnologías
+                  </span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <!-- POSTMAN -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Postman</h3>
+                    <span class="skills__number">100%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__postman"> </span>
+                  </div>
+                </div>
+                <!-- GIT -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__git"> </span>
+                  </div>
+                </div>
+                <!-- GITHUB -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Github</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__github"> </span>
+                  </div>
+                </div>
+                <!-- NPM -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NPM</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__npm"> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+
+      <section class="qualification section">
+        <h2 class="section__title">Formación</h2>
+        <span class="section__subtitle"> </span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Educación
+            </div>
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-suitcase-alt qualification__icon"></i>
+              Trabajo
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT EDUCATION ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Nivel Primaria</h3>
+                  <span class="qualification__subtitle">
+                    Colegio Católico "San Pablo"
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-schedule"></i>
+                    2010 - 2015
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Nivel Básicos</h3>
+                  <span class="qualification__subtitle">
+                    Colegio Católico "San Pablo"
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-schedule"></i>
+                    2016 - 2018
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Nivel Medio</h3>
+                  <span class="qualification__subtitle">
+                    Centro Educativo Técnico Laboral KINAL
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-schedule"></i>
+                    2019 - 2021
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification__title">Universidad</h3>
+                  <span class="qualification__subtitle">
+                    Universidad Mariano Gálvez de Guatemala
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-schedule"></i>
+                    2022
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== QUALIFICATION CONTENT WORK ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    POR EL MOMENTO SOLO ESTUDIO
+                  </h3>
+                  <!-- <span class="qualification__subtitle">
+                    Colegio Católico "San Pablo"
+                  </span> -->
+                  <div class="qualification__calendar">
+                    <i class="uil uil-schedule"></i>
+                    2022
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <!--==================== SERVICES ====================-->
+
+      <section class="services section" id="services">
+        <h2 class="section__title">Servicios</h2>
+        <span class="section__subtitle">Habilidades técnicas</span>
+        <div class="services__container container grid">
+          <!--==================== SERVICES 1 ====================-->
+
+          <div class="services__content">
+            <div>
+              <i class="uil uil-web-grid services__icon"></i>
+              <h3 class="services__title">
+                Desarrollador <br />
+                Frontend
+              </h3>
+            </div>
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              Ver más
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal--content">
+                <h4 class="services__modal--title">
+                  Desarrollador <br />
+                  Frontend
+                </h4>
+                <i class="uil uil-times services__modal--close"></i>
+                <ul class="services__modal--services grid">
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Desarrollador frontend</p>
+                  </li>
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Desarrollo de interfaces de usuario</p>
+                  </li>
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Amplio conocimiento de tecnologías frontend</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SERVICES 2 ====================-->
+
+          <div class="services__content">
+            <div>
+              <i class="uil uil-servers services__icon"></i>
+              <h3 class="services__title">
+                Desarrollador <br />
+                backend
+              </h3>
+            </div>
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              Ver más
+              <i class="uil uil-arrow-right"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal--content">
+                <h4 class="services__modal--title">
+                  Desarrollador <br />
+                  backend
+                </h4>
+                <i class="uil uil-times services__modal--close"></i>
+                <ul class="services__modal--services grid">
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Bases de datos SQL y NoSQL</p>
+                  </li>
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Marcos de desarrollo</p>
+                  </li>
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Herramientas de desarrollo y mantenimiento</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SERVICES 3 ====================-->
+
+          <!-- <div class="services__content">
+            <div>
+              <i class="uil uil-web-grid services__icon"></i>
+              <h3 class="services__title">
+                Ui/Ux <br />
+                Designer 3
+              </h3>
+            </div>
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              Ver más
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal--content">
+                <h4 class="services__modal--title">
+                  Ui/Ux <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times services__modal--close"></i>
+                <ul class="services__modal--services grid">
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Desarrollo interfaces de usuario</p>
+                  </li>
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Amplio conocimiento de tecnologías frontend</p>
+                  </li>
+                  <li class="services__modal--service">
+                    <i class="uil uil-check-circle services__modal--icon"></i>
+                    <p>Desarrollador frontend</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+
+      <section class="portfolio section" id="projects">
+        <h2 class="section__title">Portafolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+        <div class="portfolio__container container swiper">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/blackjack__img.png" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Black Jack</h3>
+                <p class="portfolio__description">
+                  Juego de Black Jack realizado HTML, CSS Y JS
+                </p>
+                <br />
+                <a
+                  href="https://github.com/josue173/Blackjack"
+                  target="_blanck"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Repositorio
+                  <!-- <i class="uil uil-arrow-right button__icon"></i> -->
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+                <br />
+                <br />
+                <a
+                  href="https://josue173.github.io/Blackjack/"
+                  target="_blanck"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-globe button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/gifs__img.png" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Gifs</h3>
+                <p class="portfolio__description">
+                  Consumo de API para la busqueda de GIFS
+                </p>
+                <br />
+                <a
+                  href="https://github.com/josue173/Gifs"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/memoria.jpeg" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Memoria</h3>
+                <p class="portfolio__description">
+                  Juego memoria realizado HTML, CSS Y JS
+                </p>
+                <br />
+                <a
+                  href="https://memoria-14f45.web.app/"
+                  target="_blanck"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-globe button__icon"></i>
+                </a>
+                <!-- <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a> -->
+                <br><br>
+                <!-- <a
+                  href="https://josue173.github.io/Blackjack/"
+                  target="_blanck"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-globe button__icon"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <!-- <section class="project section"></section> -->
+
+      <!--==================== TESTIMONIAL ====================-->
+      <!-- <section class="testimonial section"></section> -->
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contáctame</h2>
+        <span class="section__subtitle">Póngase en contacto</span>
+        <div class="contact__container container grid">
+          <div>
+            <!-- <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Escríbeme</h3>
+                <span class="contact__subtitle">+502 5814-9263</span>
+              </div>
+            </div> -->
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Correo</h3>
+                <span class="contact__subtitle"
+                  >antony.toribio2002@gmail.com</span
+                >
+              </div>
+            </div>
+            <div class="contact__information">
+              <i class="uil uil-map-pin contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Ubicación</h3>
+                <span class="contact__subtitle">Guatemala</span>
+              </div>
+            </div>
+          </div>
+          <form
+            action="https://formspree.io/f/mdobeqwk"
+            method="POST"
+            class="contact__form grid"
+          >
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="nombre" class="contact__labels">Nombre</label>
+                <input
+                  name="nombre"
+                  id="nombre"
+                  type="text"
+                  class="contact__input"
+                  required
+                />
+              </div>
+              <div class="contact__content">
+                <label for="email" class="contact__labels">Correo</label>
+                <input
+                  name="_replyto"
+                  id="email"
+                  type="email"
+                  class="contact__input"
+                  required
+                />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="proyecto" class="contact__labels">Proyecto</label>
+              <input
+                name="proyecto"
+                id="proyecto"
+                type="text"
+                class="contact__input"
+                required
+              />
+            </div>
+            <div class="contact__content">
+              <label for="mensaje" class="contact__labels">Mensaje</label>
+              <textarea
+                name="message"
+                id="mensaje"
+                cols="30"
+                rows="7"
+                class="contact__input"
+                required
+              ></textarea>
+            </div>
+            <input
+              class="button button--flex button--form"
+              type="submit"
+              value="Enviar"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Antony</h1>
+            <span class="footer__subtitle">Desarrollador Frontend</span>
+          </div>
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Servicios</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portafolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contáctame</a>
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <a
+              href="https://www.instagram.com/mine.zenin/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com/zamn___"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/antony-toribio-691758223/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">&#169; Antony. Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <!-- ========== SCROLL TOP ========== -->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- ========== SWIPER JS ========== -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+  </body>
+</html>
